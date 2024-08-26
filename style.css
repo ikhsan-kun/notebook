@@ -1,0 +1,90 @@
+body{
+    margin: 0;
+}
+.box{
+    font-family: Arial, sans-serif;
+    padding-top: 20px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin: 0;
+    width: auto;
+    height: 100vh;
+    background-color: black;
+    gap: 40px;
+    background-size: cover;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border: 1px solid white;
+    border-radius: 15px;
+    width: 400px;
+    padding: 20px;
+}
+
+h3{
+    color: white;
+    text-align: center;
+}
+textarea{
+    width: 94%;
+    max-width: 94%;
+    min-width: 94%;
+    height: 100px;
+    border-radius: 10px;
+    padding: 10px;
+}
+button {
+    margin-top: 10px;
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    background-color: #5cb85c;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+}
+.listcatatan{
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    max-width: 300px;
+    height: fit-content;
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 20px;
+    padding: 10px;
+}
+.listcatatan p{
+    background-color: rgb(163, 175, 185);
+    border-radius: 10px;
+    max-width: 98%;
+    height: 100% ;
+    padding: 5px;
+    overflow-wrap: break-word;
+    margin: 0;
+    
+}
+.childdiv{
+    display: flex;
+    gap: 5px;
+}
+#catatan{
+    width: auto;
+    padding: 10px;
+    display: flex;
+    gap: 15px;
+    flex-wrap: wrap;
+}
+/* #catatan::before{
+    content: 'my notebook';
+    display: block;
+    align-items: center;
+} */
+
+.delete{
+    background-color: red;
+}
